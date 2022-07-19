@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pkill -f supervisord
+sudo pkill -f supervisord  #kill all process supervisord
 sudo pip3 install virtualenv
 cd /home/ec2-user/app
 virtualenv environment
