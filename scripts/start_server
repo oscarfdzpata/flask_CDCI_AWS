@@ -1,6 +1,5 @@
 #!/bin/bash
 cd /home/ec2-user/app
-sudo pkill -f supervisord
 source environment/bin/activate
 supervisord -c supervisord.conf
 
